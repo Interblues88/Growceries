@@ -1,0 +1,53 @@
+.title{
+    width:100%;
+    height: 10vh;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 8vh;
+}
+
+.form-label{
+    font-size: 18px;
+    margin-top: 1vh;
+}
+
+.formAnswer{
+    width: 100%;
+    height: 10vh;
+    border-radius: 10px;
+    border: 1px solid #3F945A;
+    text-indent: 10px;
+}
+
+.submitButtonContainer{
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+.button{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 8vh;
+}
+
+.submitButton{
+    width: 20%;
+    height: 8vh;
+    color: white;
+    background-color: #3F945A;
+    border-radius: 10px;
+}
+
+
+.submitButton:hover{
+    text-decoration: none;
+    color: #3F945A;
+    border: 1px solid #3F945A;
+    background-color: white;
+}

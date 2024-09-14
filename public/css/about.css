@@ -1,0 +1,106 @@
+.banner
+{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+}
+
+.full-img{
+    width: 100%;
+    height: auto;
+}
+
+.text1{
+    position: absolute;
+    color: white;
+    text-align: center;
+    font-size: 65px;
+}
+
+.description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 50px;
+}
+
+.logoimg{
+    width: 40vw;
+    padding: 20px;
+}
+
+.description h1{
+  text-align: center;
+  font-size: 45px;
+}
+
+.description p{
+    text-align: center;
+    font-size: 20px;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    padding: 50px;
+}
+
+.desc h1{
+    text-align: left;
+    font-size: 45px;
+}
+
+.desc p{
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.img{
+    padding: 10px;
+    width: 45vw;
+}
+#contact-btn{
+    background-color: #3F945A;
+    border-radius: 10px;
+    /* margin-right: -2vw; */
+    width: 20%;
+    height: 6vh;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+.desc-store{
+    display: flex;
+    flex-direction: column;
+    /* align-items: right !important; */
+    align-items: end;
+}
+.desc-store h1{
+    text-align: right;
+    font-size: 45px;
+}
+
+.desc-store p{
+    text-align: right;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+#store-btn{
+    background-color: #3F945A;
+    border-radius: 10px;
+    /* margin-right: -2vw; */
+    width: 20%;
+    height: 6vh;
+    color: white;
+    font-size: 15px;
+}
+

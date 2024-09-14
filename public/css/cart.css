@@ -1,0 +1,279 @@
+
+h1{
+    text-align: center;
+}
+
+.cart-container{
+    margin-bottom: 100px;
+}
+
+.emptyCartMessage{
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 40px;
+}
+
+.emptyCartMessage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.emptyCartMessage h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.emptyCartMessage p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.emptyCartMessage .btn {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.empty-cart-message .btn:hover {
+    background-color: #218838;
+}
+
+#checkout-form{
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 40px;
+}
+
+.checkAll {
+    margin-left: 10px;
+}
+
+.deliveryOptions {
+    display: flex;
+    gap: 15px; 
+}
+
+.deliveryOption {
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 5px; 
+    text-align: center;
+    flex: 1;
+    max-width: 100px; 
+    cursor: pointer;
+    border: 1px solid #ccc;
+}
+
+.deliveryOption.selected {
+    border-color: #34C202;
+}
+
+.deliveryOption .date {
+    font-weight: bold;
+}
+
+.deliveryOption .day {
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.deliveryOption .time {
+    font-size: 13px; 
+    font-weight: normal;
+    color: #666;
+}
+
+.cartItems {
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.cartItem {
+    border-radius: 18px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid;
+}
+
+.cartItemKosong {
+    border-radius: 18px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid;
+}
+
+.itemDetails {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.itemDetails .itemName {
+    margin-bottom: 0px;
+}
+
+.itemDetails img {
+    width: 87px;
+    height: 87px;
+    margin-right: 20px;
+    margin-left: 15px;
+}
+
+.itemDetails .itemWeight{
+    /* font-size: 12px; */
+    color: #666;
+}
+
+.itemDetails .itemPrice {
+    color: red;
+}
+
+.itemActions {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+
+.itemActions button {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.itemActions input {
+    width: 30px;
+    text-align: center;
+    margin: 0 5px;
+}
+
+.itemActions .deleteButton{
+    color: green;
+    margin-left: 10px;
+    text-decoration: none;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+input.checkboxItem{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+}
+.checkboxCheckAll{
+    display: flex;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.checkboxCheckAll p{
+    margin-left: 10px;
+}
+input.checkAll{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    align-self: center;
+}
+
+.checkboxItem, .checkAll {
+    accent-color: #118925;
+}
+
+.quantityButton{
+    color : #118925;
+}
+
+.productDetailButton:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.summarySection {
+    padding: 20px;
+    /* border: 1px solid #ddd; */
+    border-radius: 5px;
+    /* background-color: #f9f9f9; */
+}
+
+.paymentDetails {
+    margin-bottom: 20px;
+}
+
+.paymentDetails .detailRow {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding-left: 35px;
+}
+
+.totalPayment {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+.totalPaymentFinal {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.25em;
+    /* font-weight: bold; */
+    flex-direction: column;
+}
+
+.totalPayment span {
+    display: inline-block;
+}
+
+.greenText{
+    color: #118925;
+}
+
+.stickyFooter {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #e6ffe6;
+    border-top: 1px solid #ccc;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
+}
+
+.footerContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.footerContent span {
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 45px;
+}
+
+.footerContent button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.footerContent button:hover {
+    background-color: #218838;
+}

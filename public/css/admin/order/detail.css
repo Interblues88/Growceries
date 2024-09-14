@@ -1,0 +1,230 @@
+.productListTitle {
+    font-size: 32px;
+    margin: 5vh 0px 8vh 0vh;
+}
+
+.productListContainer {
+    width: calc(100vw - 20px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.cartItems {
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.cartItem {
+    border-radius: 18px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid;
+}
+
+.itemDetails {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.itemDetails .itemName {
+    margin-bottom: 0px;
+}
+
+.itemDetails img {
+    width: 87px;
+    height: 87px;
+    margin-right: 20px;
+    margin-left: 15px;
+}
+
+.itemDetails .itemWeight{
+    /* font-size: 12px; */
+    color: #666;
+}
+
+.itemActions .itemPrice {
+    color: red;
+}
+
+#checkout-form{
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 40px;
+}
+
+.totalPayment {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+.totalPaymentFinal {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.25em;
+    /* font-weight: bold; */
+    flex-direction: column;
+}
+
+.totalPayment span {
+    display: inline-block;
+}
+
+.priceDetail{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5vw;
+    align-items: center;
+}
+
+
+
+/* TIMELINE START DISINI */
+.timeline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin: 20px;
+    padding: 0;
+    list-style-type: none;
+}
+
+.timeline-line {
+    position: absolute;
+    top: 25px; /* Adjust the top value */
+    left: 0;
+    width: calc(100% - 107px); /* Adjust the width to exclude the padding */
+    margin-left: 53px; /* Adjust the left margin to start from the first circle */
+    height: 4px;
+    background-color: #32CD32; /* Line color */
+    z-index: 1;
+}
+
+.timeline-step {
+    position: relative;
+    text-align: center;
+    z-index: 2;
+    width: 150px;
+}
+
+.timeline-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    border: 3px solid #32CD32; /* Circle color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+}
+
+.timeline-step:not(:first-child) {
+    margin-left: -4px;
+}
+
+.timeline-content {
+    margin-top: 10px;
+}
+
+.timeline-title {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.timeline-date {
+    font-size: 12px;
+    color: #999;
+    margin: 0;
+}
+
+.timeline-price {
+    font-size: 12px;
+    color: #000;
+    margin: 0;
+}
+
+.completed .timeline-icon {
+    background-color: #32CD32;
+}
+
+.completed .timeline-icon img {
+    filter: brightness(0) invert(1);
+}
+
+.timeline-step.completed {
+    color: #32CD32;
+}
+
+.timeline-step.pending {
+    color: #E0E0E0;
+}
+
+.timeline-icon.pending{
+    color: #E0E0E0;
+    border: 3px solid #E0E0E0;
+}
+
+.timeline-icon.completed {
+    border: 3px solid #32CD32;
+}
+
+
+.timeline-line.Packing{
+    background: linear-gradient(90deg, rgba(5,255,0,1) 32%, #E0E0E0 36%);
+}
+.timeline-line.Shipping{
+    background: linear-gradient(90deg, rgba(5,255,0,1) 64%, #E0E0E0 64%);
+}
+.timeline-line.Completed{
+    background: linear-gradient(90deg, rgba(5,255,0,1) 100%, #E0E0E0 100%);
+}
+.timeline-line.requestRefund{
+    background: linear-gradient(90deg, rgba(5,255,0,1) 72%, #E0E0E0 72%);
+}
+.timeline-line.Refunded{
+    background: linear-gradient(90deg, rgba(5,255,0,1) 100%, #E0E0E0 100%);
+}
+.timeline-line.Rejected{
+    background: linear-gradient(90deg, rgba(5,255,0,1) 100%, #E0E0E0 100%);
+}
+
+
+.stickyFooter{
+    display: flex;
+    flex-direction: row;
+}
+
+.alamat{
+    width: 50%;
+}
+
+.footerContent{
+    width: 50%;
+}
+
+
+.accReturn{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.buttonRefund{
+    display: flex;
+    justify-content: space-around;
+}
+
+.completed .timeline-icon img {
+    filter: brightness(0) invert(1); /* Invert icon color for completed steps */
+}

@@ -1,0 +1,72 @@
+body{
+    background-color: #D6F6DD;
+}
+
+.welcomeTitle{
+    font-size: 40px;
+    margin: 20px 0px 5vh 7.5vw;
+}
+
+.featureContainer{
+    width: 95vw;
+    margin-left: 2.5vw;
+    display: flex;
+    justify-content: center;
+}
+
+.featureListColumn{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.featureListRow{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.featureListUnit{
+    width: 45%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255, 0.45);
+    border-radius: 30px;
+    -webkit-box-shadow: 0px 0px 7px -0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 0px 7px -0px rgba(0,0,0,0.3);
+    box-shadow: 0px 0px 7px -0px rgba(0,0,0,0.3);
+}
+
+.featureImage{
+    height: 50%;
+}
+
+.featureTitle{
+    font-size: 36px;
+}
+
+.featureButton{
+    font-size: 28px;
+    width:30%;
+    color: white;
+    background-color: #3F945A;
+    border-radius: 15px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.addProductButton{
+    display: none;
+}
+
+.dropDownButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

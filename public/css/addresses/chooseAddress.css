@@ -1,0 +1,77 @@
+.title{
+    width:100%;
+    height: 10vh;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 5vh;
+}
+
+.addressList{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.addressUnit{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border: 1px solid #3F945A;
+    border-radius: 15px;
+    margin-top: 3vh;
+}
+
+.left{
+    width: 75%;
+    text-indent: 10px;
+}
+
+.address{
+    font-size: 20px;
+}
+
+.addressDetail{
+    font-size: 15px;
+    color: gray;
+}
+
+.right{
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+form{
+    width: 100%;
+}
+
+.addAddress{
+    width: 100%;
+    height: 10vh;
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+}
+
+.submitButton{
+    width: 70%;
+    height: 8vh;
+    color: white;
+    background-color: #3F945A;
+    border-radius: 10px;
+    margin-left: 15%;
+    
+}
+
+.addAddressButton{
+    width: 20%;
+    color: #3F945A;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

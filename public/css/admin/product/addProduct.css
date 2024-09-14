@@ -1,0 +1,127 @@
+textarea {
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+}
+
+.addProductButton{
+    display: none;
+}
+
+.dropDownButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.addProductTitle{
+    text-align: center;
+    font-size: 32px;
+    margin-top: 5vh;
+}
+
+.addProductContainer{
+    width: 90vw;
+    margin-top: 2.5vh;
+    margin-left: 5vw;
+}
+
+label{
+    font-size: 24px;
+}
+
+.label{
+    font-size: 24px;
+}
+
+.miniLabel{
+    font-size: 18px;
+    margin-bottom: -15px;
+}
+
+.miniInput{
+    width: 25vw;
+    height: 7vh;
+    padding: 30px;
+    font-size: 22px;
+    background-color: white;
+    border: solid 1px #3F945A;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.inputNormal{
+    width: 100%;
+    height: 7vh;
+    padding: 30px;
+    font-size: 22px;
+    background-color: white;
+    border: solid 1px #3F945A;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.formColumn{
+    width: 27vw;
+    display: flex;
+    flex-direction: column;
+    margin-right: 2vw;
+    margin-bottom: -3vh;
+}
+
+.formRow{
+    display: flex;
+    flex-direction: row;
+}
+
+.largeInput{
+    width: 100%;
+    height: 30vh;
+    padding: 20px;
+    font-size: 22px;
+    background-color: white;
+    border: solid 1px #3F945A;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.category{
+    margin-bottom: 20px;
+}
+
+.buttonContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 5vh;
+}
+
+.cancelButton{
+    width: 15%;
+    height: 7vh;
+    font-size: 20px;
+    color: white;
+    background-color: #c20202;
+    margin-right: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.submitButton{
+    width: 15%;
+    height: 7vh;
+    font-size: 20px;
+    color: white;
+    background-color: #3F945A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}

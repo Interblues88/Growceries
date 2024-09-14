@@ -1,0 +1,28 @@
+.OrderUnit{
+    width: 80vw;
+    height: 30vh;
+    display: flex;
+    border-radius: 20px;
+    flex-direction: column;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    margin-bottom: 5vh;
+}
+
+.button1{
+    margin: 0px;
+}
+.unitBottom{
+    justify-content: center;
+}
+.option
+{
+    margin-bottom: 4.5vh;
+}
+#pick{
+    background-color: #3F945A;
+}
+#list_ship{
+    display: none;
+}

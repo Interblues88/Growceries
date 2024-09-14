@@ -1,0 +1,158 @@
+
+.input-group{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 7vh;
+}
+.search_container{
+    width: 53%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 100%;
+    align-items: center;
+    border: 1.5px black solid;
+    border-radius: 28px !important;
+}
+#myInput{
+    width: 65%;
+    height: 100%;
+    border: none;
+    font-size: 18px;
+}
+input:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+
+#magnifying{
+  margin-right: 1vw;
+  font-size: 24px;
+}
+.searchButton{
+    background-color: #3F945A;
+    color: aliceblue;
+    width: 14%;
+    height: 70%;
+    margin-left: 2vw;
+    border-radius: 22px;
+    font-size: 17px;
+}
+.result_box{
+    width: 100%;
+    /* background-color: bisque; */
+    /* height: 20vh; */
+    display: flex;
+    justify-content: center;
+    position: relative;
+    /* z-index: 0; */
+}
+#dropdown_m0{
+    width: 100%;
+
+}
+.dropdown-content{
+    width: 100%;
+    height: 100%;
+    background-color: blueviolet;
+    position: absolute;
+    z-index: 2;
+    /* background-color: aliceblue; */
+    /* position: absolute; */
+    /* z-index: 2; */
+}
+.percontent{
+    display: flex;
+    align-items: center;
+    /* border-radius: 15px; */
+    /* background-color: aquamarine; */
+    font-size: 24px;
+    /* height: 5vh; */
+    /* margin-bottom: 1vh; */
+    cursor: pointer;
+}
+.percontent:hover{
+    background-color: rgb(158, 222, 158);
+}
+.ml-23{
+    /* padding-left: 2vw; */
+
+}
+#magnifying2{
+padding-left: 1vw;
+}
+
+.result_field{
+    /* padding-top: 1.3vh; */
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px 0px 24px 24px;
+    border-bottom: 1px black solid;
+    border-left: 1px black solid;
+    border-right: 1px black solid;
+    padding-top: 1vh;
+    overflow: hidden;
+    width: 48vw;
+}
+.result_field p{
+    font-size: 20px;
+}
+.dropdown-content{
+    display: none;
+}
+.result_box{
+    padding: 0px 23vw;
+}
+
+.form-control:focus {
+    border-color: #ced4da; /* default B5 color or set your own color*/
+    border: none !important; /* if you want to remove borders at all*/
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.buttonFilter{
+    width: 5%;
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    margin-top: 1vh;
+    cursor: pointer;
+}
+
+.separator{
+    padding: 7px;
+}
+.m-2{
+    margin: 0px !important;
+    background-color: white;
+    border-radius: 0px 0px 24px 24px;
+    width: 42vw;
+    /* height: 5vh; */
+    font-size: 16px;
+    padding: 1.4vh 1.8vw;
+    border: 1.5px solid black;
+    border-top: none;
+}
+
+.bi-search {
+    /* margin-right: 1vw; */
+
+    margin-left: 0.5vw;
+    font-size: 20px;
+    font-weight: 10;
+    padding-top: 6px;
+    margin-right: 0.5vw;
+}
+.media{
+    padding: 4px 0px;
+}
+a:hover{
+    text-decoration: none !important;
+    color: black;
+}
+.bi-search:hover{
+    color: black;
+}

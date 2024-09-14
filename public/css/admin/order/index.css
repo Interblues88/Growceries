@@ -1,0 +1,427 @@
+.searchContainer {
+    width: calc(100vw - 14px);
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #3F945A;
+    align-items: center;
+}
+
+.searchTitle {
+    font-size: 32px;
+    margin-top: 8vh;
+    margin-bottom: 4vh;
+    color: white;
+}
+
+.searchField {
+    width: 70%;
+    height: 8vh;
+    border-radius: 20px;
+    border: none;
+    padding-left: 30px;
+}
+
+.searchField:focus {
+    border: none;
+}
+
+.productListContainer {
+    width: calc(100vw - 20px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.productListTitle {
+    font-size: 32px;
+    margin: 5vh 0px 8vh 0vh;
+}
+
+.productUnit {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px black;
+    border-radius: 20px;
+    margin-bottom: 5vh;
+}
+
+.unitTop {
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.topLeft {
+    width: 12%;
+    display: flex;
+    align-items: center;
+    margin-left: 2%;
+}
+
+.topLeft img {
+    width: 70%;
+}
+
+.topMid {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.productName {
+    font-size: 24px;
+}
+
+.productStock {
+    font-size: 16px;
+    color: #827A7A;
+    margin-top: -5px;
+}
+
+.topRight {
+    width: 10%;
+    display: flex;
+    align-items: center;
+}
+
+.viewDetailsButton {
+    width: 80%;
+    height: 40%;
+    background-color: #3F945A;
+    color: white;
+    border-radius: 15px;
+}
+
+.unitBottom {
+    width: 100%;
+    border-top: solid black 1px;
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+
+.bottomUp {
+    width: 90%;
+    margin: 0px 0px 5vh 5%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.informationTitle {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.description {
+    width: 100%;
+    font-size: 16px;
+    color: #827A7A;
+}
+
+.productInformation {
+    display: flex;
+    flex-direction: row;
+}
+
+.productInformationTitle {
+    width: 20%;
+}
+
+.productInformation p {
+    font-size: 16px;
+}
+
+.productInformationDesc {
+    width: 70%;
+    font-size: 16px;
+    margin-left: 10px;
+    color: #827A7A;
+}
+
+.bottomDown {
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.editProductButton {
+    font-size: 18px;
+    width: 20vw;
+    height: 8vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10vw;
+    background-color: #3F945A;
+    color: white;
+    border-radius: 15px;
+}
+
+.deleteProductButton {
+    font-size: 18px;
+    width: 20vw;
+    height: 8vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #C20202;
+    color: white;
+    border-radius: 15px;
+}
+
+.view {
+    display: flex;
+}
+
+.addProductButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropDownButton {
+    display: none;
+}
+
+.Order {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.OrderTitle {
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+    margin: 5vh 0px 5vh 0px;
+}
+
+.OrderUnit {
+    display: flex;
+    justify-content: center;
+    width: 85%;
+    height: 39vh;
+    display: flex;
+    border-radius: 20px;
+    flex-direction: column;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    margin-bottom: 5vh;
+}
+
+.unitTop {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px;
+    border-style: solid;
+}
+
+.topLeft {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topMid {
+    width: 70%;
+}
+
+.status {
+    font-size: 24px;
+}
+
+.purchaseDate {
+    color: #827A7A;
+}
+
+.productPurchased {
+    color: #827A7A;
+}
+
+.topRight {
+    width: 20%;
+    text-align: center;
+    font-size: 24px;
+    color: red;
+}
+
+.unitBottom {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.button1 {
+    width: 20%;
+    border: 2px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: #3F945A;
+    color: #3F945A;
+    font-size: 20px;
+    margin: 0px 3vw 0px 8vw;
+    text-align: center;
+    
+}
+
+.button2 {
+    width: 20%;
+    height: 50%;
+    border: 2px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: #C20202;
+    color: white;
+    background-color: #C20202;
+    font-size: 20px;
+}
+
+
+.orderType {
+    width: 100%;
+}
+
+.orderTypeButton {
+    width: calc(100vw - 13px);
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5vh;
+
+}
+
+.orderButton {
+    width: 50vw;
+    height: 100%;
+    font-size: 24px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    border-top: 2px solid #3F945A;
+    border-bottom: 2px solid #3F945A;
+}
+
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+.tab button:hover {
+    background-color: #63C482;
+    color: white;
+}
+
+.tab button.active {
+    background-color: #3F945A;
+    color: white;
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-top: none;
+    background-color: white;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdown-item {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.dropdown-item:hover {
+    background-color: #f0f0f0;
+}
+
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    background-color: white;
+    display: none;
+    overflow: hidden;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+  }
+  .accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+  }
+
+  .accordion.active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+  }
+
+  .topright {
+    position: absolute;
+    top: 330px;
+    right: 16px;
+    font-size: 18px;
+  }
+
+  

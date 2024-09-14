@@ -1,0 +1,233 @@
+body{
+    overflow-x: hidden;
+}
+
+.title{
+    font-size: 30px;
+    padding-top: 5vh;
+    padding-bottom: 2vh;
+    text-align: center;
+}
+
+.orderId{
+    font-size: 16px;
+    color: rgb(217,217,217);
+    text-align: right;
+    padding: 3vh 5vw 0 0 ;
+}
+
+.packing{
+    width: 90vw;
+    height: 35vh;
+    margin-left: 5vw;
+    margin-top: 3vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: first baseline;
+}
+
+.horizontalLineComplete{
+    width: 20vw;
+    height: 10%;
+    border-width: 5px;
+    border-color: rgb(5, 255, 0);
+    display: flex;
+}
+
+.fullUnit{
+    width: 7vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+    align-items: center;
+}
+
+.iconUnitComplete{
+    width: 7vw;
+    height: 25vh;
+    background-color: rgb(5, 255, 0);
+    border-radius: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconUnitComplete .iconComplete{
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+    filter: brightness(0) invert(1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.horizontalLine{
+    width: 20vw;
+    height: 10%;
+    border-width: 5px;
+    border-color: gray;
+    display: flex;
+}
+
+.iconUnit{
+    width: 7vw;
+    height: 15vh;
+    background-color: grey;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iconUnit .icon{
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+    filter: brightness(0) invert(1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.unit{
+    width: 90%;
+    height: 20vh;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5vh;
+    border: 1px solid rgb(217,217,217);
+    border-radius: 15px;
+}
+
+.explainUnit{
+    width: 180%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+    align-items: center;
+    margin-top: 2vh;
+}
+
+
+.productName{
+    font-size: 20px;
+}
+
+.explanation{
+    font-size: 12px;
+    color: grey;
+}
+
+.left{
+    width: 10%;
+    height: 100%;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+.productImage{
+    width: 100%;
+    height: 100%;
+}
+
+.mid{
+    width: 65%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.right{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.productPrice{
+    color: red;
+    font-size: 20px;
+}
+
+.sectionLine{
+    border-width: 1px;
+    margin-top: 5vh;
+}
+
+.paymentDetail{
+    width: 90%;
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+    margin-bottom: -5vh;
+}
+
+.paymentDetailLeft{
+    width: 50%;
+    height: 100%;
+    border-right: 1px solid rgb(217,217,217);
+    display: flex;
+    flex-direction: column;
+    align-items: first baseline;
+}
+
+.paymentDetailRight{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: first baseline;
+    justify-content: center;
+}
+
+.paymentDetailUnit{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.paymentDetailTitle{
+    width: 50%;
+    height: 15%;
+    font-size: 20px;
+    margin-left: 5%;
+}
+
+.paymentDetailAns{
+    color: black;
+    height: 15%;
+    width: 50%;
+    font-size: 20px;
+}   
+
+.paymentDetailRightAns{
+    color: black;
+    height: 15%;
+    width: 50%;
+    font-size: 20px;
+    text-align: right;
+}   
+
+.paymentDetailAnsFree{
+    color: rgb(5, 255, 0);
+    height: 15%;
+    width: 50%;
+    font-size: 20px;
+    text-align: right;
+}
+
+.paymentDetailAnsPrice{
+    color: red;
+    width: 50%;
+    font-size: 20px;
+    text-align: right;
+}

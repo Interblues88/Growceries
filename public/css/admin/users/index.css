@@ -1,0 +1,14 @@
+.noUserImage{
+    width: 30vw;
+}
+
+.noUserExplain{
+    font-size: 22px;
+}
+
+.topRight a:hover{
+    text-decoration: none;
+    color: red;
+    border: 1px solid red;
+    background-color: white;
+}
