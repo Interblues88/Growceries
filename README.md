@@ -1,3 +1,11 @@
+# Growceries
+
+<p align="center">
+    <a href="" target="_blank">
+        <img src="https://github.com/Interblues88/Growceries/blob/main/public/image/GrowceriesLogo.svg" width="400" alt="Growceries Logo">
+    </a>
+</p>
+
 ## How to Run
 1 ) Clone the Github Repository
 
